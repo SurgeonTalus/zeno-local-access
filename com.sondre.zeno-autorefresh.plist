@@ -6,8 +6,15 @@
     <string>com.sondre.zeno-autorefresh</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/sondre/zeno-autorefresh.sh</string>
+        <string>/bin/sh</string>
+        <string>-c</string>
+        <string>"$HOME/zeno-autorefresh.sh"</string>
     </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>

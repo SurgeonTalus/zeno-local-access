@@ -1,6 +1,7 @@
+import os
 import http.server, socketserver, urllib.request, os
 
-PORT_FILE = "/Users/sondre/.zeno-flashmoe-port"
+PORT_FILE = os.path.expanduser("~/.zeno-flashmoe-port")
 UPSTREAM_HOST = "127.0.0.1"
 FIXED_FALLBACK = "63457"
 

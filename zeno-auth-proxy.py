@@ -1,7 +1,8 @@
+import os
 import http.server, socketserver, urllib.request, base64, os
 
-PASSWORD_FILE = "/Users/sondre/.zeno-sidecar-password"
-PORT_FILE = "/Users/sondre/.zeno-sidecar-port"
+PASSWORD_FILE = os.path.expanduser("~/.zeno-sidecar-password")
+PORT_FILE = os.path.expanduser("~/.zeno-sidecar-port")
 UPSTREAM_HOST = "127.0.0.1"
 
 def get_upstream():
