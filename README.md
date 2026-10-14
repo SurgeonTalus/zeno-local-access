@@ -24,7 +24,7 @@ Zeno (v1.0.11) starts a protected `opencode` sidecar on a random localhost port 
 - `zeno-heapdump.js`
 - `zeno-auth-proxy.py`
 - `flashmoe-proxy.py`
-- `com.sondre.zeno-autorefresh.plist`
+- `com.zeno.local-autorefresh.plist`
 
 ## Notes
 

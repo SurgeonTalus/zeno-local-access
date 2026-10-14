@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.sondre.zeno-autorefresh</string>
+    <string>com.zeno.local-autorefresh</string>
     <key>ProgramArguments</key>
     <array>
         <string>/bin/sh</string>
